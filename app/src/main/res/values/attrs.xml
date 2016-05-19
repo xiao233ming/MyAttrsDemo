@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--声明属性集的名称-->
+    <declare-styleable name="MyView">
+        <!--声明一个属性 name是test_id,类型为整数类型-->
+        <attr name="test_id" format="integer"/>
+
+        <!--声明一个属性 name是test_msg,类型为字符串类型-->
+        <attr name="test_msg" format="string"/>
+
+        <!--声明一个属性 name是test_bitmap,类型为引用类型-->
+        <attr name="test_bitmap" format="reference"/>
+
+        <attr name="customText" format="string"/>
+        <attr name="customColor" format="color"/>
+    </declare-styleable>
+</resources>
